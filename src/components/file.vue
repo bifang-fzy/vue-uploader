@@ -38,10 +38,11 @@
           </span>
         </div>
         <div class="uploader-file-actions">
-          <span class="uploader-file-pause" @click="pause"></span>
-          <span class="uploader-file-resume" @click="resume">️</span>
-          <span class="uploader-file-retry" @click="retry"></span>
-          <span class="uploader-file-remove" @click="remove"></span>
+          <span class="uploader-file-preview" @click="preview">预览</span>
+          <span class="uploader-file-pause" @click="pause">暂停</span>
+          <span class="uploader-file-resume" @click="resume">️开始</span>
+          <span class="uploader-file-retry" @click="retry">重新上传</span>
+          <span class="uploader-file-remove" @click="remove">删除</span>
         </div>
       </div>
     </slot>
